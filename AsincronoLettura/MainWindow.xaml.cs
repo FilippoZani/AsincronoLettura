@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
+using System.IO;
 
 namespace AsincronoLettura
 {
@@ -20,9 +22,54 @@ namespace AsincronoLettura
     /// </summary>
     public partial class MainWindow : Window
     {
+        Random r;
+        int caratteri;
+
         public MainWindow()
         {
             InitializeComponent();
+            r = new Random();
+            caratteri = 0;
+            Lettura();
+        }
+
+        public async void Lettura()
+        {
+            await Task.Run(() =>
+            {
+
+                using (StreamReader sr = new StreamReader("Data.txt"))
+                {
+                    string entireFile = sr.ReadToEnd();
+                    caratteri = entireFile.Length;
+                }
+            });
+        }
+
+        public async void ProgressBar()
+        {
+            await Task.Run(() =>
+            {
+                int i = 0;
+                while(i < 100)
+                {
+                    i += r.Next(1, 8);
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        if(i < 100)
+                        {
+                            pb1.Value = i;
+                        }
+                        else
+                        {
+                            pb1.Value = 100;
+                            MessageBox.Show("Il numero di caratteri è: " + caratteri);
+                        }
+                    }));
+
+
+                }
+            });
         }
     }
 }
