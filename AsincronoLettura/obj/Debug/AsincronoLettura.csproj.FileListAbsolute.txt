@@ -1,0 +1,14 @@
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\bin\Debug\AsincronoLettura.exe.config
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\bin\Debug\AsincronoLettura.exe
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\bin\Debug\AsincronoLettura.pdb
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.csprojAssemblyReference.cache
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\MainWindow.g.cs
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\App.g.cs
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura_MarkupCompile.cache
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura_MarkupCompile.lref
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\MainWindow.baml
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.g.resources
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.Properties.Resources.resources
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.csproj.GenerateResource.cache
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.exe
+C:\Users\FILIPPO ZANI\Documents\ProgettiGITHUB\AsincronoLettura\AsincronoLettura\obj\Debug\AsincronoLettura.pdb

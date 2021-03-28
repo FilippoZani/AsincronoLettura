@@ -31,6 +31,7 @@ namespace AsincronoLettura
             r = new Random();
             caratteri = 0;
             Lettura();
+            ProgressBar();
         }
 
         public async void Lettura()
@@ -66,8 +67,7 @@ namespace AsincronoLettura
                             MessageBox.Show("Il numero di caratteri è: " + caratteri);
                         }
                     }));
-
-
+                    Thread.Sleep(600);
                 }
             });
         }
